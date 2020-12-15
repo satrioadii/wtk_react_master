@@ -28,29 +28,13 @@ repositories succeed.
 npm install
 ```
 
-In order to run the server in development mode, you will need nodemon. You can
-install it by using this command.
+Then run the app with this command
 
 ```
-npm install -g nodemon
+npm run start
 ```
 
-Setup the environment variables in folder config with filename **config.env**.
-This is the example.
-
-```
-NODE_ENV=development
-PORT=7001
-```
-
-Then run the server with this command
-
-```
-npm run dev
-```
-
-The development server is started on port 3000. If the PORT variable is not
-exist, the port 3000 will be selected by default.
+If the PORT variable is not exist, the port 3000 will be selected by default.
 
 ## Built With
 
